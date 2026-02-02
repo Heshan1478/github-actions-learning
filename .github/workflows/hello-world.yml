@@ -5,7 +5,7 @@ on:
     branches: [main, develop]
   workflow_dispatch:
 
-jobs:
+jobs:                                  #this is the job
   hello:
     name: Say Hello
     runs-on: ubuntu-latest
